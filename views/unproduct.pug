@@ -1,0 +1,13 @@
+html
+    head
+        title='test pug'
+        style
+            include styles.css
+    body
+        h1=title 
+        div
+             p=prodencontrado.id
+             p=prodencontrado.title
+             p=prodencontrado.price
+             img(class='product-img', src=prodencontrado.thumbnail)
+        
